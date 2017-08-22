@@ -12,43 +12,43 @@ int main()
     int d[6] = {0,0,0,0,0,0};
 
     cout<< "Digite o numero de vezes que o dado sera lancado:\n";
-    cin>> n;
+    cin>> numero;
 
-    while (n != 0)
+    while (numero != 0)
     {
-       for (int i = 0; i < n; i++)
+       for (int i = 0; i < numero; i++)
        {
             dado = rand() % 6 + 1;
 
             if (dado == 1)
             {
                 d[0] += 1;
-                percentagem[0] = (float)d[0]/n;
+                percentagem[0] = (float)d[0];
             }
             if (dado == 2)
             {
                 d[1] += 1;
-                percentagem[1] = (float)d[1]/n;
+                percentagem[1] = (float)d[1];
             }
             if (dado == 3)
             {
                 d[2] += 1;
-                percentagem[2] = (float)d[2]/n;
+                percentagem[2] = (float)d[2];
             }
             if (dado == 4)
             {
                 d[3] += 1;
-                percentagem[3] = (float)d[3]/n;
+                percentagem[3] = (float)d[3];
             }
             if (dado == 5)
             {
                 d[4] += 1;
-                percentagem[4] = (float)d[4]/n;
+                percentagem[4] = (float)d[4];
             }
             if (dado == 6)
             {
                 d[5] += 1;
-                percentagem[5] = (float)d[5]/n;
+                percentagem[5] = (float)d[5];
             }
 
         }
