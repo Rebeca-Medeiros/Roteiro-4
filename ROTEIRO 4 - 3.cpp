@@ -52,7 +52,7 @@ int main()
     }
     for (int j = 0; j < 6; j++)
     {
-        cout<< "\nA porcentagem de vezes que o dado caiu no lado " << j+1 << " foi de: " << (percentual[j]*100.0) << "%\n"<< endl;
+        cout<< "\nA porcentagem de vezes que o dado caiu no lado " << j+1 << " foi de: " << (percentagem[j]*100.0) << "%\n"<< endl;
     }
 return 0;
 }
