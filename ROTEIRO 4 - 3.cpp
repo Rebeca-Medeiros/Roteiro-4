@@ -14,7 +14,7 @@ int main()
     cout<< "Digite o numero de vezes que o dado sera lancado:\n";
     cin>> numero;
 
-    while (numero != 0)
+    if (numero != 0)
     {
        for (int i = 0; i < numero; i++)
        {
