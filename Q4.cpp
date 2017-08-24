@@ -70,14 +70,14 @@ int main()
 
 
         cout << "\n Resultado da votacao: " << endl;
-        cout << "\n Foram computados %d votos" << t << endl;
+        cout << "\n Foram computados " << t << " votos" << endl;
 
-        cout << "Jogador\t Votos\t   %%\n" <<  Ranking(Jogadores,t) << endl;
+        cout << "Jogador\t Votos\t   \n" <<  Ranking(Jogadores,t) << endl;
         //Ranking(Jogadores,t);
 
         cont = Melhor(Jogadores);
 
-        cout << "O melhor foi o numero"  << cont << ", com "<<Jogadores[cont] << " votos " << ", correspondendo a " << Porcento(Jogadores[cont],t) << "do total de votos" << endl;
+        cout << "O melhor foi o numero "  << cont << ", com "<< Jogadores[cont] << " votos " << ", correspondendo a " << Porcento(Jogadores[cont],t) << "do total de votos" << endl;
 
     return 0;
 }
